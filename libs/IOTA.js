@@ -1,3 +1,7 @@
+/**
+ *  Dữ liệu đầu vào của IOTA
+ * @type {{mess: {}, user: string, phone_act: boolean}}
+ */
 IOTA  = {
     //Tên người dùng
     user: "",
