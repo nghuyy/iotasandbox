@@ -1,0 +1,31 @@
+{
+  "name": "iotasandbox",
+  "version": "1.0.0",
+  "description": "<https://box.iotabot.app>",
+  "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nghuyy/iotasandbox.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nghuyy/iotasandbox/issues"
+  },
+  "homepage": "https://github.com/nghuyy/iotasandbox#readme",
+  "devDependencies": {
+    "@ng.huyy/mysqlconn": "^1.0.3",
+    "axios": "^0.20.0"
+  },
+  "dependencies": {
+    "@ng.huyy/dbm": "^1.0.4",
+    "moment": "^2.27.0",
+    "vm2": "^3.9.2"
+  }
+}
