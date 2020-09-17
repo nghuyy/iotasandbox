@@ -1,9 +1,11 @@
 {
-  "project" : "./project/botorder/botorder_new.js",
-  "user" : "0898542108",
+  "project" : "./project/index.js",
+  "user" : "iota1001",
   "phone_act" : true,
-  "mess1": "61de86d4ca6011ea9b3e0242ac110003",
-  "mess": "{\"payments\":[],\"tid\":\"61de86d4ca6011ea9b3e0242ac110003\",\"Store\":{\"4\":{\"id\":4,\"n\":\"Cà phê sữa đá vừa\",\"p\":35000,\"img\":\"https://live.staticflickr.com/65535/49918119681_f4ee0ebca0_n.jpg\",\"q\":1}},\"iotaPayMethod\":\"iota\",\"note\":\"\"}",
+  "mess1": "init",
+  "mess": "65afff85b75611ea9b3e0242ac110003",
+  "mess1": "{\"command\":\"localwalletlogs\"}",
+  "mess1": "{\"t\":\"65afff85b75611ea9b3e0242ac110003\",\"payments\":[],\"Store\":{\"3\":{\"id\":3,\"n\":\"Cà phê đá lớn\",\"p\":39000,\"img\":\"https://img.vsys.vn/img/01_00.png\",\"order\":6,\"q\":1}},\"iotaPayMethod\":\"iota\",\"note\":\"\"}",
   "unit_test": [
     "init",
     "wallet",

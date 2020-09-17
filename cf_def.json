@@ -1,5 +1,5 @@
 {
-  "project" : "./project/botorder/botorder_new.js",
+  "project" : "./project/index.js",
   "user" : "",
   "phone_act" : true,
   "mess": "init"
