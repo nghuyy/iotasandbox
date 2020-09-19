@@ -1,11 +1,11 @@
 {
   "project" : "./project/index.js",
-  "user" : "iota1001",
+  "user" : "0898542108",
   "phone_act" : true,
   "mess1": "init",
-  "mess": "65afff85b75611ea9b3e0242ac110003",
+  "mess1": "65afff85b75611ea9b3e0242ac110003",
   "mess1": "{\"command\":\"localwalletlogs\"}",
-  "mess1": "{\"t\":\"65afff85b75611ea9b3e0242ac110003\",\"payments\":[],\"Store\":{\"3\":{\"id\":3,\"n\":\"Cà phê đá lớn\",\"p\":39000,\"img\":\"https://img.vsys.vn/img/01_00.png\",\"order\":6,\"q\":1}},\"iotaPayMethod\":\"iota\",\"note\":\"\"}",
+  "mess": "{\"t\":\"65afff85b75611ea9b3e0242ac110003\",\"payments\":[],\"Store\":{\"1\":{\"id\":1,\"n\":\"Cà phê đá 2 IN 1\",\"p\":55000,\"img\":\"https://live.staticflickr.com/65535/50046096633_9096cdb529_n.jpg\",\"order\":20,\"q\":2}},\"iotaPayMethod\":\"iota\",\"note\":\"\"}",
   "unit_test": [
     "init",
     "wallet",
