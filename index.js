@@ -18,6 +18,7 @@ let vmTask = (filename, params) => {
                 IOTA: params,
                 out: null,
                 MySql: MySql,
+                Db: null,
                 Time: require('moment'),
                 web: {
                     get: async (url) => {
@@ -34,6 +35,11 @@ let vmTask = (filename, params) => {
         let pretime = moment();
         try {
             await vm.run(fs.readFileSync(filename).toString("utf-8"));
+            try{
+                await vm.sandbox.Db.Conn.end();
+            }catch (e) {
+                console.log(e);
+            }
             let aftertime = moment() - pretime;
             resolve({r: vm.sandbox.out, exectime: aftertime});
         } catch (e) {
