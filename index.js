@@ -37,9 +37,7 @@ let vmTask = (filename, params) => {
             await vm.run(fs.readFileSync(filename).toString("utf-8"));
             try{
                 await vm.sandbox.Db.Conn.end();
-            }catch (e) {
-                console.log(e);
-            }
+            }catch (e) {}
             let aftertime = moment() - pretime;
             resolve({r: vm.sandbox.out, exectime: aftertime});
         } catch (e) {
