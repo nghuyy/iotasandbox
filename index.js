@@ -3,6 +3,7 @@ const {VM} = require('vm2');
 const moment = require('moment');
 const fs = require('fs');
 let axios = require('axios');
+let crypto = require('crypto');
 let dbm = require('@ng.huyy/dbm');
 const MySql = require('@ng.huyy/mysqlconn');
 let vmTask = (filename, params) => {
@@ -20,13 +21,14 @@ let vmTask = (filename, params) => {
                 MySql: MySql,
                 Db: null,
                 Time: require('moment'),
+                crypto:crypto,
                 web: {
                     get: async (url) => {
                         let result = await axios.get(url);
                         return result.data;
                     },
-                    post: async (url, postdata) => {
-                        let result = await axios.post(url, postdata);
+                    post: async (url, postdata, options) => {
+                        let result = await axios.post(url, postdata, options);
                         return result.data;
                     }
                 }

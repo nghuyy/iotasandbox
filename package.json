@@ -25,6 +25,7 @@
   },
   "dependencies": {
     "@ng.huyy/dbm": "^1.0.4",
+    "crypto": "^1.0.1",
     "moment": "^2.27.0",
     "vm2": "^3.9.2"
   }
