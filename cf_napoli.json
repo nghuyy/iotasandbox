@@ -1,0 +1,9 @@
+{
+  "project" : "./project/napoli_sandbox/vsys/index.js",
+  "user" : "iota1002",
+  "phone_act" : true,
+  "mess": "{\"t\":\"init\",\"payments\":[\"momo\",\"zalo\"],\"note\":\"\",\"Store\":{\"35\":{\"id\":35,\"n\":\"Trà đào cam xả lớn\",\"po\":40000,\"p\":40000,\"promote\":0,\"img\":\"https:\\/\\/live.staticflickr.com\\/65535\\/50381247093_baab4673bd_w_d.jpg\",\"q\":1}},\"parrams\":\"101\",\"iotaPayMethod\":\"touch_tablet\"}",
+  "mess1": "{\"t\":\"65b01047b75611ea9b3e0242ac110003\"}",
+  "mess3": "{\"command\":\"getbillstatus\",\"orderid\":\"11111\"}",
+  "mess2": "{\"partnerCode\":\"MOMOJRPF20200707\",\"accessKey\":\"KQ8quWAcD5P7vgn0\",\"requestId\":\"64fc6c8a1\",\"amount\":\"31140\",\"orderId\":\"IOTAMOMO248\",\"orderInfo\":\"Thanh toán qua IOTA\",\"orderType\":\"momo_wallet\",\"transId\":\"2331424529\",\"errorCode\":\"0\",\"message\":\"Success\",\"localMessage\":\"Thành công\",\"responseTime\":\"2020-10-23 14:29:09\",\"signature\":\"8170c4f4cdf18bdc64129440681ad6eaab04774d45c63585d104701772efc193\",\"extraData\":\"65b00db3b75611ea9b3e0242ac110003\",\"payType\":\"qr\",\"type\":\"momo_paygate\"}"
+}

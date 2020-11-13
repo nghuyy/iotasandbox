@@ -15,3 +15,6 @@ IOTA  = {
  * @param msg Nội dung
  */
 postTChanel = (msg)=>{};
+TelegramSend = (msg)=>{
+    console.log(msg);
+};

@@ -21,7 +21,10 @@ let vmTask = (filename, params) => {
                 MySql: MySql,
                 Db: null,
                 Time: require('moment'),
-                crypto:crypto,
+                crypto: crypto,
+                TelegramSend: (msg) => {
+                    console.log(msg);
+                },
                 web: {
                     get: async (url) => {
                         let result = await axios.get(url);
@@ -37,9 +40,10 @@ let vmTask = (filename, params) => {
         let pretime = moment();
         try {
             await vm.run(fs.readFileSync(filename).toString("utf-8"));
-            try{
+            try {
                 await vm.sandbox.Db.Conn.end();
-            }catch (e) {}
+            } catch (e) {
+            }
             let aftertime = moment() - pretime;
             resolve({r: vm.sandbox.out, exectime: aftertime});
         } catch (e) {
