@@ -1,4 +1,4 @@
 {
-    "version": "1.0.4",
-    "desc": "Commanline build"
+    "version": "1.0.7-dev",
+    "desc": "Fix json Webpack inc error"
 }
